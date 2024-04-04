@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>课表</title>
+	</head>
+	<body>
+		<table frame="border" rules="rows">
+			<caption><strong>第4周</strong></caption>
+			<tr>
+				<th>03月</th>
+				<th>18<br />一</th>
+				<th>19<br />二</th>
+				<th>20<br />三</th>
+				<th>21<br />四</th>
+				<th>22<br />五</th>
+				<th>23<br />六</th>
+				<th>24<br />日</th>
+			</tr>
+			<tr>
+				<td>8:30<br />1</td>
+				<td rowspan="2" bgcolor="SlateBlue">排球</td>
+				<td rowspan="2" bgcolor="red">大学物理C</td>
+				<td rowspan="2"></td>
+				<td rowspan="2" bgcolor="pink">数据结构和算法</td>
+				<td rowspan="2" bgcolor="Coral">web前端开发A</td>
+				<td rowspan="2" bgcolor="SkyBlue">高等数学A2</td>
+				<td rowspan="2"></td>
+			</tr>
+			<tr>
+				<td>9:20<br />2</td>
+			</tr>
+			<tr>
+				<td>10:25<br />3</td>
+				<td rowspan="2" bgcolor="Gold">毛概</td>
+				<td rowspan="2" bgcolor="LimeGreen">马原</td>
+				<td rowspan="2" bgcolor="Aqua">大学英语A2</td>
+				<td rowspan="2" bgcolor="LimeGreen">马原</td>
+				<td rowspan="2" bgcolor="Coral">web前端开发A</td>
+				<td rowspan="2" colspan="2"></td>
+			</tr>
+			<tr>
+				<td>11:15<br />4</td>
+			</tr>
+			<tr>
+				<td>14:00<br />5</td>
+				<td rowspan="2" bgcolor="SkyBlue">高等数学A2</td>
+				<td rowspan="2" colspan="3"></td>
+				<td rowspan="2" bgcolor="Yellow">大学计算机</td>
+				<td rowspan="2" colspan="2"></td>
+			</tr>
+			<tr>
+				<td>14：55<br />6</td>
+			</tr>
+			<tr>
+				<td>16:00<br />7</td>
+				<td rowspan="2" bgcolor="red">大学物理C</td>
+				<td rowspan="2" bgcolor="LightPink">劳动教育</td>
+				<td rowspan="2" bgcolor="LightGreen">红色影视鉴赏</td>
+				<td rowspan="2" bgcolor="SpringGreen">趣谈农村电商</td>
+				<td rowspan="2" colspan="3"></td>
+			</tr>
+			<tr>
+				<td>16：55<br />8</td>
+			</tr>
+			<tr>
+				<td>19:00<br />9</td>
+				<td rowspan="2" colspan="3"></td>
+				<td rowspan="2" bgcolor="PaleVioletRed">党史</td>
+				<td rowspan="2" colspan="3"></td>
+			</tr>
+			<tr>
+				<td>19：55<br />10</td>
+			</tr>
+		</table>
+	</body>
+</html>
